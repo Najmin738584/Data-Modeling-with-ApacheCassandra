@@ -15,13 +15,13 @@ event_data/2018-11-09-events.csv'
 ### ETL Process
 
 Extract Step
-Data is extracted from 2 set of files which are of JSON file format - event data
+- Data is extracted from 2 set of files which are of JSON file format - event data
 
 Transform Step
-There is no special transformation logic done for this process. The data retrieved from Source files are passed as it is to target tables.
+- There is no special transformation logic done for this process. The data retrieved from Source files are passed as it is to target tables.
 
 Load Step
-In the Load step, the extracted and transformed data is loaded into the Apache Cassandra tables in sparkify keyspace.
+- In the Load step, the extracted and transformed data is loaded into the Apache Cassandra tables in sparkify keyspace.
 
 
 ### Environment and Skills
