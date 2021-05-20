@@ -15,7 +15,7 @@ event_data/2018-11-09-events.csv'
 ### ETL Process
 
 Extract Step
-- Data is extracted from 2 set of files which are of JSON file format - event data
+- Data is extracted from csv file format - event data
 
 Transform Step
 - There is no special transformation logic done for this process. The data retrieved from Source files are passed as it is to target tables.
